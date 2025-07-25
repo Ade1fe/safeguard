@@ -29,14 +29,7 @@ class SplashScreen extends StatelessWidget {
               LogoText(
                 fontSize: 60,
                 fontWeight: FontWeight.w500,
-                color: AppColors.accent,
-                // style: GoogleFonts.getFont(
-                //   'Sedgwick Ave Display',
-                //   fontSize: 60,
-                //   fontWeight: FontWeight.w500,
-                //   color: AppColors.white,
-                //   letterSpacing: 1.2,
-                // ),
+                color: AppColors.white,
                 style: GoogleFonts.pacifico(
                   fontSize: 60,
                   color: AppColors.white,

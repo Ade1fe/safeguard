@@ -1,3 +1,37 @@
+// import 'package:flutter/material.dart';
+// import 'package:path_provider/path_provider.dart';
+// // import 'package:safeguard/screens/location_screen.dart'; // Assuming these paths are correct
+// import 'package:safeguard/splash_screen.dart';
+// import 'package:safeguard/theme/theme.dart';
+
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   try {
+//     final directory = await getApplicationSupportDirectory();
+//     print('Application Support Directory: ${directory.path}');
+//   } catch (e) {
+//     print('Error getting application support directory: $e');
+//   }
+//   runApp(const MyApp());
+// }
+
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       title: 'Safeguard',
+//       theme: ThemeData(
+//         primaryColor: AppColors.primary,
+//         scaffoldBackgroundColor: AppColors.background,
+//         textTheme: const TextTheme(bodyMedium: AppTextStyles.body),
+//       ),
+//       home: const SplashScreen(),
+//     );
+//   }
+// }
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 // import 'package:safeguard/screens/location_screen.dart'; // Assuming these paths are correct
@@ -24,8 +58,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Safeguard',
       theme: ThemeData(
-        primaryColor: AppColors.primary,
-        scaffoldBackgroundColor: AppColors.background,
+        primaryColor: AppColors.white,
+        scaffoldBackgroundColor: AppColors.primary,
         textTheme: const TextTheme(bodyMedium: AppTextStyles.body),
       ),
       home: const SplashScreen(),
