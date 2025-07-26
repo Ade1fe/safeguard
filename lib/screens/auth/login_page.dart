@@ -95,12 +95,12 @@ class LoginPage extends StatelessWidget {
             textColor: AppColors.white,
             borderColor: AppColors.green,
             onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => EmergencyContactSetupScreen(),
-                ),
-              );
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (_) => EmergencyContactSetupScreen(),
+              //   ),
+              // );
               // handle login
             },
           ),
