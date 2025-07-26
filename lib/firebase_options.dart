@@ -85,4 +85,5 @@ class DefaultFirebaseOptions {
     storageBucket: 'safeguard-ad3a1.firebasestorage.app',
     measurementId: 'G-KHM7DQZQW6',
   );
+
 }
